@@ -13,6 +13,7 @@
         }
         #main {
             display: flex;
+            flex-wrap: wrap;
             max-width: 1000px;
             margin: auto;
             justify-content: space-between;
@@ -22,8 +23,11 @@
             width: 100%;
            
         }
-        p {
+        .sobre-mim p {
             text-align: justify;
+        }
+        .sobre-mim p, h1 {
+          padding: 20px;
         }
         .shake-vertical {
 	    -webkit-animation: shake-vertical 12s ease-in-out infinite both;
@@ -98,7 +102,10 @@
   }
 }
 .sobre-mim {
-    max-width: 700px;
+    max-width: 600px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 10px;
 }
 
     </style>
