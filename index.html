@@ -13,10 +13,11 @@
         }
         #main {
             display: flex;
+
             flex-wrap: wrap;
             max-width: 1000px;
             margin: auto;
-            justify-content: space-between;
+            justify-content: center;
         }
         header {
             height: 100px;
@@ -101,11 +102,24 @@
             transform: translateY(-6.4px);
   }
 }
+.main-sobre-mim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  
+}
 .sobre-mim {
-    max-width: 600px;
+    max-width: 400px;
+    max-height: 320px;
     border: 1px solid white;
     border-radius: 10px;
     margin: 10px;
+}
+.imagem {
+  display: flex;
+  justify-content: center;
+  width: 400px;
 }
 
     </style>
@@ -115,11 +129,13 @@
 
     </header>
     <div id="main">
-        <div class="sobre-mim">
-            <h1>Sobre mim</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dolor quos dolores aspernatur sapiente, quis dignissimos quas, exercitationem aut saepe accusantium, eius officia laborum fugiat voluptatum voluptatem quidem optio? Atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque necessitatibus aliquam porro veritatis, assumenda provident mollitia blanditiis non tempore, modi sed hic? Odit, laborum eaque repellat voluptatibus distinctio perferendis quo. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur commodi optio eligendi eius soluta voluptatem nostrum, adipisci error nemo officia ducimus assumenda ipsum harum facilis autem, qui ex cupiditate temporibus!</p>
+        <div class="main-sobre-mim">
+          <div class="sobre-mim">
+              <h1>Sobre mim</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dolor quos dolores aspernatur sapiente, quis dignissimos quas, exercitationem aut saepe accusantium, eius officia laborum fugiat voluptatum voluptatem quidem optio? Atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque necessitatibus aliquam porro veritatis, assumenda provident mollitia blanditiis non tempore, modi sed hic? </p>
+          </div>
         </div>
-        <div><img src="imagens/foto-teste (1).png" alt="Foto Igor" class="shake-vertical"></div>
+        <div class="imagem"><img src="imagens/foto-teste (1).png" alt="Foto Igor" class="shake-vertical"></div>
     </div>
 </body>
 </html>
